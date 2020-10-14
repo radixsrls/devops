@@ -123,9 +123,10 @@ h1, h2, h3, h4, h5, h6 {
   /* padding: 15px; */
   border-radius: 50px;
 }
-
-/* #btn-success:hover {
-  color: rgba(138, 137, 137, 0.274);
+/* 
+#btn-success:hover {
+  width: 400px;
+  height: 400px;
 } */
 
 /*--------------------------------------------------------------
@@ -409,6 +410,19 @@ h1, h2, h3, h4, h5, h6 {
   
 }
 
+@media (max-width: 900px) {
+  #intro img {
+    width: 30%;
+  }
+  #intro .intro-info h2 {
+    font-size: 40px !important;
+  }
+
+  #intro .intro-info p {
+    font-size: 16px !important;
+    font-weight: 300 !important;
+  }
+}
 
 
 #intro .intro-info h2 {
