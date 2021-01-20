@@ -18,7 +18,7 @@ a {
 
 a:hover {
   color: #6aa3d5;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -27,6 +27,36 @@ h1, h2, h3, h4, h5, h6 {
 
 .logo {
   width: 4rem;
+}
+
+.btn-outline-info {
+  color: #428bca;
+  border-color: #428bca !important;
+  border-color: #2f6ca1;
+}
+
+.btn-outline-info:hover {
+  color: #ffffff;
+  border-color: #428bca !important;
+  background-color: #428bca;
+}
+
+.jumbotron {
+	position: static !important;
+	padding: 2rem 1rem !important;
+	margin-bottom: 2rem !important;
+	margin-top: 0rem !important;
+	background-color:#428bca !important;
+	border-radius: 0rem !important;
+	color: black !important;
+  height: 800px !important;
+	max-width: 100% !important;
+}
+
+hr {
+  max-width: 70px;
+  border-width: 1px;
+  border-color: #fcfdff;
 }
 
 
@@ -602,6 +632,7 @@ section {
   margin: 15px auto 0 auto;
   font-weight: 500;
   color: #919191;
+  font-size: 19px;
 }
 
 @media (min-width: 1024px) {
@@ -849,7 +880,7 @@ section {
 --------------------------------------------------------------*/
 .services {
   padding-bottom: 30px;
-  background-color: whitesmoke;
+  background-color: #fafafb;
 }
 
 .services .icon-box {
@@ -868,9 +899,11 @@ section {
 
 .services .title {
   margin-left: 60px;
-  font-weight: 700;
-  margin-bottom: 15px;
+  font-weight: 500;
+  margin-bottom: 20px;
   font-size: 25px;
+  color: #428bca;
+  /* height: 80px; */
 }
 
 .services .title a {
@@ -884,8 +917,9 @@ section {
 
 .services .description {
   margin-left: 60px;
-  line-height: 24px;
+  /* line-height: 20px; */
   font-size: 20px;
+  font-weight: 300;
 }
 
 /*--------------------------------------------------------------
@@ -1071,7 +1105,7 @@ section {
   font-size: 18px;
   font-weight: bold;
   margin: 10px 0 5px 0;
-  color: #394047;
+  color: #428bca;
 }
 
 .testimonials .testimonial-item h4 {
@@ -1223,7 +1257,7 @@ section {
 }
 
 .contact .info p {
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .contact .php-email-form {
