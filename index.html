@@ -300,8 +300,25 @@
                   </div>
                   <div class="col-md-6 info d-flex flex-column align-items-stretch">
                     <i class="bx bx-phone"></i>
-                    <h4>Chiamaci</h4>
-                    <p>+39 351 7205124</p>
+                    
+                    <form action="https://app.getresponse.com/add_subscriber.html" accept-charset="utf-8" method="post">
+                      <!-- Campo email (obbligatorio) -->
+                      <div class="form-group">
+                        <input class="form-control" type="text" name="email" placeholder="Inserisci la tua email">
+                        <p class="help-block text-danger"></p>
+                      </div>
+                      <!-- Token lista -->
+                      <!-- Ottieni il token su: https://app.getresponse.com/campaign_list.html -->
+                      <input type="hidden" name="campaign_token" value="KFQgE" />
+                      <!-- Aggiungi l'iscritto alla sequenza di follow-up con un giorno specificato (facoltativo) -->
+                      <input type="hidden" name="start_day" value="0" />
+                      <!-- Pulsante iscritto -->
+                    </br>
+                    <div class="col-lg-12 text-center">
+                      <div id="success"></div>
+                      <button type="submit" class="btn btn-outline-info">Contattaci</button>
+                    </div>
+                    </form>
                   </div>
                   <!-- <div class="col-md-6 info d-flex flex-column align-items-stretch">
                     <i class="bx bx-envelope"></i>
